@@ -1,85 +1,46 @@
 # Resolution Switcher
 
-A simple Windows application that allows you to quickly switch between different screen resolutions. The app is designed to be lightweight, fast, and user-friendly.
+Eine moderne Windows 11 App zum schnellen Wechseln der Bildschirmauflösung. Perfekt für Streamer, Content Creator oder jeden, der häufig die Bildschirmauflösung ändern muss.
 
 ## Features
 
-- Switch to 1440x1080 resolution with a single click
-- Restore maximum resolution with a single click
-- Clean, modern UI with dark theme
-- Small, non-resizable window (400x300 pixels)
-- Shows current display resolution
+- Schnelles Umschalten auf 1440×1080 Auflösung (ideal zum Streamen)
+- Ein-Klick-Wiederherstellung der maximalen Auflösung
+- Saubere, moderne Benutzeroberfläche im Windows 11-Stil
+- Minimaler Speicherbedarf
 
-## Screenshots
+## Anforderungen
 
-[Screenshots will be added here]
-
-## Requirements
-
-- Windows 10 version 10.0.17763.0 or higher
-- .NET 8.0 or higher
-- WinUI 3 runtime
+- Windows 10 (build 17763) oder Windows 11
 
 ## Installation
 
-### Option 1: Build from source
-1. Clone this repository
-2. Open the solution in Visual Studio 2022
-3. Build the solution
-4. Run the application
+### Option 1: Self-Contained Executable (Empfohlen)
+1. Besuchen Sie die [Releases](https://github.com/IhrBenutzername/Resolution-Switcher/releases) Seite
+2. Laden Sie die neueste "Strecher_x64_selfcontained_fixed.zip" Datei herunter
+3. Entpacken Sie die ZIP-Datei
+4. Führen Sie die Strecher.exe aus (keine zusätzliche Installation erforderlich)
 
-### Option 2: Use pre-built binaries
-1. Download the latest release from the [Releases](https://github.com/your-username/Resolution-Switcher/releases) page
-2. Extract the ZIP file to a folder of your choice
-3. Run `Strecher.exe`
+### Option 2: Von Quelle bauen
+1. Klonen Sie dieses Repository
+2. Öffnen Sie die Lösung in Visual Studio 2022
+3. Bauen Sie die Lösung (benötigt Windows App SDK 1.7)
+4. Führen Sie die App aus
 
-## Usage
+## Verwendung
 
-- Click the "SET 1440 × 1080" button to change your screen resolution to 1440x1080
-- Click the "MAXIMUM RESOLUTION" button to restore your display to the highest available resolution
+1. Starten Sie die App
+2. Klicken Sie auf "SET 1440 × 1080", um zur 1440×1080 Auflösung zu wechseln
+3. Klicken Sie auf "MAXIMUM RESOLUTION", um Ihre maximale Bildschirmauflösung wiederherzustellen
 
-## Technical Details
+## Screenshots
 
-The application uses:
-- WinUI 3 for the modern user interface
-- Windows API (user32.dll) for changing screen resolution
-- Custom styling with purple accent colors (#a78bfa) and dark background (#07000d)
+![Resolution Switcher App](img/AppImg.png)
 
-## Build Instructions
+## Lizenz
 
-1. Ensure you have installed:
-   - Visual Studio 2022 (with Universal Windows Platform development workload)
-   - .NET 8.0 SDK
-   - Windows App SDK
+Dieses Projekt ist unter der MIT-Lizenz lizenziert - siehe die LICENSE-Datei für Details.
 
-2. Open the solution in Visual Studio
-3. Select the appropriate build configuration (Debug/Release) and platform (x64/x86/ARM64)
-4. Build the solution
+## Autor
 
-### Command-line build
-
-To build the application from the command line:
-
-```powershell
-# Simple build
-dotnet build Strecher/Strecher/Strecher.csproj -c Release -p:Platform=x64
-
-# Self-contained publishable package
-dotnet publish Strecher/Strecher/Strecher.csproj -c Release -p:Platform=x64 -r win-x64 --self-contained true
-```
-
-The self-contained package will be available in:
-`Strecher/Strecher/bin/x64/Release/net8.0-windows10.0.19041.0/win-x64/publish/`
-
-## Known Issues
-
-- Due to WinUI 3 limitations, the application cannot be published as a true single file.
-- To fix nullable warnings, ensure all null literals are replaced with string.Empty for string parameters.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Author
-
-© 2024 Gustav Schwarzbach 
+Erstellt von Gustav Schwarzbach 
