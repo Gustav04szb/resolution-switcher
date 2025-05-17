@@ -17,7 +17,7 @@ Eine moderne Windows 11 App zum schnellen Wechseln der Bildschirmauflösung. Per
 
 ### Option 1: Self-Contained Executable (Empfohlen)
 1. Besuchen Sie die [Releases](https://github.com/Gustav04szb/resolution-switcher/releases) Seite
-2. Laden Sie die neueste "Strecher_x64_selfcontained_fixed.zip" Datei herunter
+2. Laden Sie die neueste "Strecher_x64_v1.0.0.zip" Datei herunter
 3. Entpacken Sie die ZIP-Datei
 4. Führen Sie die Strecher.exe aus (keine zusätzliche Installation erforderlich)
 
