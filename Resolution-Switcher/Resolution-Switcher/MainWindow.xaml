@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Window
-    x:Class="Strecher.MainWindow"
+    x:Class="ResolutionSwitcher.MainWindow"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:Strecher"
+    xmlns:local="using:ResolutionSwitcher"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
@@ -93,17 +93,6 @@
                 VerticalAlignment="Bottom"
                 HorizontalAlignment="Center"
                 Margin="0,5,0,0"/>
-            
-            <!-- Copyright -->
-            <TextBlock 
-                Grid.Row="4"
-                Text="© 2024 Gustav Schwarzbach" 
-                Foreground="{StaticResource TextBrush}"
-                HorizontalAlignment="Center" 
-                VerticalAlignment="Bottom"
-                Opacity="0.7"
-                FontSize="11"
-                Margin="0,20,0,0"/>
         </Grid>
     </Grid>
 </Window>

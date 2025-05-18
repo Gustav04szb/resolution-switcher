@@ -37,10 +37,10 @@
         DisplayName="Resolution Switcher"
         Description="A simple app to switch between screen resolutions"
         BackgroundColor="transparent"
-        Square150x150Logo="Images\Square150x150Logo.png"
-        Square44x44Logo="Images\Square44x44Logo.png">
-        <uap:DefaultTile Wide310x150Logo="Images\Wide310x150Logo.png" />
-        <uap:SplashScreen Image="Images\SplashScreen.png" />
+        Square150x150Logo="Images\Square150x150Logo.scale-200.png"
+        Square44x44Logo="Images\Square44x44Logo.scale-200.png">
+        <uap:DefaultTile Wide310x150Logo="Images\Wide310x150Logo.scale-200.png" />
+        <uap:SplashScreen Image="Images\SplashScreen.scale-200.png" />
       </uap:VisualElements>
     </Application>
   </Applications>

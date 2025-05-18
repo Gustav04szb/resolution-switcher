@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "Strecher (Package)", "Strecher\Strecher (Package)\Strecher (Package).wapproj", "{4000F214-4A87-416C-B6B8-3101FD48A7E6}"
+Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "Resolution-Switcher (Package)", "Resolution-Switcher\Resolution-Switcher (Package)\Resolution-Switcher (Package).wapproj", "{4000F214-4A87-416C-B6B8-3101FD48A7E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strecher", "Strecher\Strecher\Strecher.csproj", "{132ADC03-0088-4E35-B1F8-7D3D0E26AF95}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resolution-Switcher", "Resolution-Switcher\Resolution-Switcher\Resolution-Switcher.csproj", "{132ADC03-0088-4E35-B1F8-7D3D0E26AF95}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,8 +37,8 @@ Global
 		{4000F214-4A87-416C-B6B8-3101FD48A7E6}.Release|x86.Deploy.0 = Release|x86
 		{132ADC03-0088-4E35-B1F8-7D3D0E26AF95}.Debug|ARM64.ActiveCfg = Debug|ARM64
 		{132ADC03-0088-4E35-B1F8-7D3D0E26AF95}.Debug|ARM64.Build.0 = Debug|ARM64
-		{132ADC03-0088-4E35-B1F8-7D3D0E26AF95}.Debug|x64.ActiveCfg = Debug|x64
-		{132ADC03-0088-4E35-B1F8-7D3D0E26AF95}.Debug|x64.Build.0 = Debug|x64
+		{132ADC03-0088-4E35-B1F8-7D3D0E26AF95}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{132ADC03-0088-4E35-B1F8-7D3D0E26AF95}.Debug|x64.Build.0 = Debug|Any CPU
 		{132ADC03-0088-4E35-B1F8-7D3D0E26AF95}.Debug|x86.ActiveCfg = Debug|x86
 		{132ADC03-0088-4E35-B1F8-7D3D0E26AF95}.Debug|x86.Build.0 = Debug|x86
 		{132ADC03-0088-4E35-B1F8-7D3D0E26AF95}.Release|ARM64.ActiveCfg = Release|ARM64

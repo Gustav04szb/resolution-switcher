@@ -1,46 +1,44 @@
 # Resolution Switcher
 
-Eine moderne Windows 11 App zum schnellen Wechseln der Bildschirmauflösung. Perfekt für Streamer, Content Creator oder jeden, der häufig die Bildschirmauflösung ändern muss.
+A Windows application to quickly switch between different screen resolutions. Built with WinUI 3 and .NET 8.0.
 
 ## Features
-
-- Schnelles Umschalten auf 1440×1080 Auflösung (ideal zum Streamen)
-- Ein-Klick-Wiederherstellung der maximalen Auflösung
-- Saubere, moderne Benutzeroberfläche im Windows 11-Stil
-- Minimaler Speicherbedarf
-
-## Anforderungen
-
-- Windows 10 (build 17763) oder Windows 11
+- Quick resolution switching from system tray
+- Modern Windows 11 style UI
+- Lightweight and efficient
+- Native Windows integration
 
 ## Installation
+Download the latest release from the [Releases](https://github.com/GustavSZB/resolution-switcher/releases) page and run the installer.
 
-### Option 1: Self-Contained Executable (Empfohlen)
-1. Besuchen Sie die [Releases](https://github.com/IhrBenutzername/Resolution-Switcher/releases) Seite
-2. Laden Sie die neueste "Strecher_x64_selfcontained_fixed.zip" Datei herunter
-3. Entpacken Sie die ZIP-Datei
-4. Führen Sie die Strecher.exe aus (keine zusätzliche Installation erforderlich)
+### System Requirements
+- Windows 10 or later
+- 64-bit system
+- .NET 8.0 Runtime (included in installer)
 
-### Option 2: Von Quelle bauen
-1. Klonen Sie dieses Repository
-2. Öffnen Sie die Lösung in Visual Studio 2022
-3. Bauen Sie die Lösung (benötigt Windows App SDK 1.7)
-4. Führen Sie die App aus
+## Development
+This application is built using:
+- .NET 8.0
+- Windows App SDK
+- WinUI 3
+- Visual Studio 2022
 
-## Verwendung
+### Building from Source
+1. Clone the repository
+2. Open the solution in Visual Studio 2022
+3. Build the solution
+4. The installer script (installer.iss) requires Inno Setup 6
 
-1. Starten Sie die App
-2. Klicken Sie auf "SET 1440 × 1080", um zur 1440×1080 Auflösung zu wechseln
-3. Klicken Sie auf "MAXIMUM RESOLUTION", um Ihre maximale Bildschirmauflösung wiederherzustellen
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Screenshots
+## Changelog
+### v1.0.1 (Latest)
+- Added professional installer package
+- Consistent naming across application
+- Removed redundant copyright text
+- Improved UI consistency
+- Added system tray integration
 
-![Resolution Switcher App](img/AppImg.png)
-
-## Lizenz
-
-Dieses Projekt ist unter der MIT-Lizenz lizenziert - siehe die LICENSE-Datei für Details.
-
-## Autor
-
-Erstellt von Gustav Schwarzbach 
+## Contributing
+Contributions are welcome! Please feel free to submit a Pull Request. 
