@@ -2,6 +2,24 @@
 
 All notable changes to Resolution Switcher will be documented in this file.
 
+## [1.0.2] - 2024-01-19
+
+### Added
+- Application icons in all standard Windows sizes
+- Enhanced system tray functionality with improved icon visibility
+- Proper icon integration in installer and uninstaller
+- Icon support for desktop and Start Menu shortcuts
+
+### Changed
+- Better icon scaling for different DPI settings
+- Updated installer configuration for better icon handling
+- Enhanced visual consistency across the application
+
+### Fixed
+- Icon display issues in Windows taskbar
+- System tray icon visibility in light/dark themes
+- Icon scaling on high DPI displays
+
 ## [1.0.1] - 2024-05-18
 
 ### Added

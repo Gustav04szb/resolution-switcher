@@ -33,7 +33,12 @@ This application is built using:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Changelog
-### v1.0.1 (Latest)
+### v1.0.2 (Latest)
+- Added application icons
+- Improved system tray integration
+- Updated installer with proper icons
+
+### v1.0.1
 - Added professional installer package
 - Consistent naming across application
 - Removed redundant copyright text
